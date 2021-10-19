@@ -4,3 +4,6 @@
   height: max-content;
   padding: 20px;
 }
+.checkout--title {
+  border-bottom: 1px solid black;
+}
