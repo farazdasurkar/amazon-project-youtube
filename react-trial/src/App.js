@@ -1,4 +1,15 @@
+import React from "react";
 
+
+function App() {
+  var isDone = false;
+  const Strike = { textDecoration: "line-through" };
+  return <p style={isDone ? Strike : null}> Buy Product</p >
+}
+
+
+
+export default App;
 
 
 
