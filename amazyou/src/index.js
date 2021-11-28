@@ -15,3 +15,8 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+var number = [2, 5, 6];
+
+
+const newArray = number.map((x) => x * x);
+console.log(newArray);
